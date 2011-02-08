@@ -1,6 +1,12 @@
 (*
-montrer en Coq que le club �cossais n'a pas de membre,
+montrer en Coq que le club �cossais n'a pas de membre,
  uniquement avec les tactiques du TD:
+– Tout membre non écossais porte des chaussettes rouges.
+– Tout membre porte un kilt ou ne porte pas de chaussettes rouges.
+– Les membres mariés ne sortent pas le dimanche.
+– Un membre sort le dimanche si et seulement s’il est écossais.
+– Tout membre qui porte un kilt est écossais et marié.
+– Tout membre écossais porte un kilt.
 *)
 
 Variables A B C D E:Prop.
